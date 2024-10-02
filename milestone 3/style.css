@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background */
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    color: #2c3e50; /* Dark blue for the main title */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: auto; /* Center the form */
+    border: 2px solid #ff7e5f; /* Darker border */
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: none; /* Remove default border */
+    margin-bottom: 20px;
+    padding: 10px; /* Add padding */
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #fff; /* White text for legend */
+    background-color: #2980b9; /* Blue background for legend */
+    border-radius: 5px;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* White text for labels */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff; /* White border */
+    border-radius: 4px;
+    background-color: #fff; /* White background */
+    color: #333;
+}
+
+/* Button Styles */
+button {
+    background-color: #2980b9; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}
+
+/* Resume Output Styles */
+#resumeOutput {
+    background: #fff; /* White background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+/* Resume Text Styles */
+h2 {
+    color: #e61732; /* Blue for headings in the resume */
+}
+
+h3 {
+    color: #ddfc56; /* Red for subheadings */
+}
+
+p {
+    margin: 5px 0; /* Margin between paragraphs */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;           /* Remove padding */
+}
+
+li {
+    background-color: #ecf0f1; /* Light grey for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
