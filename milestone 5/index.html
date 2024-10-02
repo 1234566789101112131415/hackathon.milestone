@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shareable Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Create Your Resume</h1>
+    
+    <!-- Input for the Username -->
+    <input type="text" id="username" placeholder="Enter your username">
+    <button id="generateResumeBtn">Generate Resume</button>
+
+    <!-- Displaying Resume -->
+    <div id="resumeSection" class="resume-section" style="display: none;">
+      <h2 id="resumeName">Resume of </h2>
+      <div class="section" contenteditable="true">
+        <h3>Education</h3>
+        <p>Bachelor's Degree in Computer Science</p>
+      </div>
+      <div class="section" contenteditable="true">
+        <h3>Work Experience</h3>
+        <p>Software Engineer at XYZ Company</p>
+      </div>
+      
+      <!-- Shareable Link -->
+      <p>Your unique resume URL: <a id="resumeLink" href="#">Link</a></p>
+      <button id="copyLinkBtn">Copy Link</button>
+      <button id="downloadPdfBtn">Download as PDF</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

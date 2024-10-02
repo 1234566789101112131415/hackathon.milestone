@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the form and resume */
+  .container {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Username input and button */
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Resume section styles */
+  .resume-section {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .resume-section h2 {
+    color: #0077ff;
+  }
+  
+  .resume-section .section {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section .section h3 {
+    color: #0077ff;
+  }
+  
+  .resume-section .section p {
+    color: #333333;
+    margin: 10px 0;
+  }
+  
+  /* Link and copy/download buttons */
+  #resumeLink {
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #resumeLink:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #0077ff;
+  }
+  
+  button#downloadPdfBtn {
+    background-color: #f50057;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
